@@ -1,0 +1,17 @@
+
+Enterprise Risk Analytics Automated Report
+Generated On: 2026-04-28 21:46:42
+
+Summary Metrics:
+- Total Events: 5
+- High/Critical Events: 3
+- Average Risk Score: 8.6
+- Countries Affected: 1
+
+Key Insights:
+- Most frequent risk category: Natural Hazard
+- Most affected city: Mumbai
+- Maximum risk score observed: 12
+
+Recommended Action:
+Prioritize High and Critical risk events, monitor affected cities closely, and allocate operational resources based on category concentration.

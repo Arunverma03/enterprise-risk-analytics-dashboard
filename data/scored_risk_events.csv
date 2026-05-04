@@ -1,0 +1,500 @@
+date,event_summary,recommended_action,category,event_type,impact_level,country,city,latitude,longitude,risk_score,risk_rating,alert_priority_score
+2025-03-13,Power Outage reported in Mumbai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,India,Mumbai,19.076,72.8777,4,Medium,40
+2025-01-17,Fire reported in Hyderabad affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,India,Hyderabad,17.385,78.4867,16,Critical,160
+2025-10-15,Protest reported in Mumbai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,India,Mumbai,19.076,72.8777,3,Low,30
+2026-02-19,Strike reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,USA,San Francisco,37.7749,-122.4194,9,High,90
+2025-03-21,Robbery reported in Pune affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,India,Pune,18.5204,73.8567,12,Critical,120
+2025-02-19,Flood reported in Dallas affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,USA,Dallas,32.7767,-96.797,12,Critical,120
+2026-01-09,Explosion reported in Manchester affecting local operations,Monitor situation and inform local teams,Industrial Incident,Explosion,Low,UK,Manchester,53.4808,-2.2426,4,Medium,40
+2026-03-01,Crime reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-01-24,Fire reported in Singapore affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2025-07-14,Flood reported in Dallas affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,USA,Dallas,32.7767,-96.797,3,Low,30
+2025-07-01,Power Outage reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2025-10-01,Earthquake reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,USA,Dallas,32.7767,-96.797,6,Medium,60
+2026-04-19,Robbery reported in Chicago affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,USA,Chicago,41.8781,-87.6298,12,Critical,120
+2026-02-25,Power Outage reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2025-04-19,Robbery reported in Delhi affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,India,Delhi,28.6139,77.209,4,Medium,40
+2025-07-22,Road Blockade reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-01-17,Power Outage reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2025-07-05,Explosion reported in Singapore affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2026-01-22,Explosion reported in Chicago affecting local operations,Monitor situation and inform local teams,Industrial Incident,Explosion,Low,USA,Chicago,41.8781,-87.6298,4,Medium,40
+2026-02-10,Road Blockade reported in Mumbai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,India,Mumbai,19.076,72.8777,6,Medium,60
+2025-09-28,Robbery reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-12-16,Earthquake reported in Birmingham affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UK,Birmingham,52.4862,-1.8904,3,Low,30
+2025-08-11,Power Outage reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-09-14,Earthquake reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,USA,San Francisco,37.7749,-122.4194,9,High,90
+2025-03-20,Water Disruption reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Water Disruption,Medium,USA,New York,40.7128,-74.006,4,Medium,40
+2025-11-03,Leak reported in London affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,UK,London,51.5074,-0.1278,4,Medium,40
+2026-03-26,Flood reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,UK,Manchester,53.4808,-2.2426,9,High,90
+2025-02-13,Flood reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UK,London,51.5074,-0.1278,3,Low,30
+2025-12-04,Fire reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,UAE,Dubai,25.2048,55.2708,8,High,80
+2025-04-19,Water Disruption reported in Dubai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,UAE,Dubai,25.2048,55.2708,8,High,80
+2025-08-13,Network Failure reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-02-02,Flood reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-10-29,Leak reported in London affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UK,London,51.5074,-0.1278,8,High,80
+2025-04-28,Earthquake reported in New York affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,USA,New York,40.7128,-74.006,3,Low,30
+2025-05-23,Power Outage reported in Mumbai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,India,Mumbai,19.076,72.8777,4,Medium,40
+2025-05-05,Fire reported in Dubai affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-12-04,Protest reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2026-03-19,Robbery reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Abu Dhabi,24.4539,54.3773,16,Critical,160
+2026-01-08,Flood reported in Hyderabad affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,India,Hyderabad,17.385,78.4867,12,Critical,120
+2025-10-02,Protest reported in London affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-08-25,Crime reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-01-26,Threat reported in New York affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,USA,New York,40.7128,-74.006,4,Medium,40
+2025-07-28,Flood reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-03-26,Strike reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2025-05-27,Robbery reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-04-22,Protest reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Protest,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2025-01-30,Fire reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,India,Chennai,13.0827,80.2707,12,Critical,120
+2025-01-30,Threat reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Security,Threat,Medium,India,Chennai,13.0827,80.2707,8,High,80
+2025-12-12,Protest reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-10-24,Earthquake reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,USA,San Francisco,37.7749,-122.4194,6,Medium,60
+2025-12-03,Fire reported in Singapore affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2025-05-03,Power Outage reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-08-23,Road Blockade reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,UK,Manchester,53.4808,-2.2426,9,High,90
+2025-02-07,Storm reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,UK,London,51.5074,-0.1278,3,Low,30
+2026-04-23,Explosion reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-03-22,Strike reported in London affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UK,London,51.5074,-0.1278,9,High,90
+2025-12-08,Leak reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2025-03-01,Flood reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-05-25,Fire reported in Hyderabad affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,India,Hyderabad,17.385,78.4867,12,Critical,120
+2025-09-16,Power Outage reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2026-03-01,Flood reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-11-23,Storm reported in London affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-10-15,Threat reported in London affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UK,London,51.5074,-0.1278,16,Critical,160
+2025-10-07,Earthquake reported in Mumbai affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,India,Mumbai,19.076,72.8777,6,Medium,60
+2025-08-09,Leak reported in Delhi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,India,Delhi,28.6139,77.209,8,High,80
+2026-04-06,Network Failure reported in New York affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,USA,New York,40.7128,-74.006,2,Low,20
+2025-07-01,Road Blockade reported in London affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,UK,London,51.5074,-0.1278,3,Low,30
+2026-04-19,Leak reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-04-02,Strike reported in Chicago affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,USA,Chicago,41.8781,-87.6298,3,Low,30
+2026-02-08,Strike reported in Manchester affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2025-04-13,Storm reported in Bengaluru affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,India,Bengaluru,12.9716,77.5946,6,Medium,60
+2025-01-13,Power Outage reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2026-01-31,Network Failure reported in San Francisco affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,USA,San Francisco,37.7749,-122.4194,2,Low,20
+2026-04-26,Explosion reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-01-20,Power Outage reported in Mumbai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,India,Mumbai,19.076,72.8777,6,Medium,60
+2025-08-12,Robbery reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,India,Chennai,13.0827,80.2707,12,Critical,120
+2025-05-11,Threat reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Security,Threat,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-07-06,Crime reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,India,Hyderabad,17.385,78.4867,8,High,80
+2025-12-06,Water Disruption reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2025-12-08,Water Disruption reported in Hyderabad affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,India,Hyderabad,17.385,78.4867,6,Medium,60
+2025-10-11,Threat reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-12-13,Threat reported in Chicago affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,USA,Chicago,41.8781,-87.6298,16,Critical,160
+2025-06-05,Threat reported in Dallas affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,USA,Dallas,32.7767,-96.797,4,Medium,40
+2025-08-27,Threat reported in London affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,UK,London,51.5074,-0.1278,12,Critical,120
+2026-02-11,Road Blockade reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-02-17,Water Disruption reported in New York affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,USA,New York,40.7128,-74.006,6,Medium,60
+2025-01-13,Protest reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,USA,Dallas,32.7767,-96.797,6,Medium,60
+2025-08-22,Threat reported in Pune affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,India,Pune,18.5204,73.8567,4,Medium,40
+2025-05-05,Robbery reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-04-01,Storm reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,USA,New York,40.7128,-74.006,6,Medium,60
+2026-04-15,Earthquake reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2026-01-22,Strike reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,India,Bengaluru,12.9716,77.5946,9,High,90
+2026-01-16,Explosion reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2026-01-28,Power Outage reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-02-09,Strike reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-04-03,Network Failure reported in London affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,UK,London,51.5074,-0.1278,6,Medium,60
+2025-07-16,Protest reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-06-19,Storm reported in Chicago affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,USA,Chicago,41.8781,-87.6298,12,Critical,120
+2026-03-03,Crime reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2026-03-15,Leak reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2025-06-02,Crime reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-09-07,Leak reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-07-19,Robbery reported in Dallas affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,USA,Dallas,32.7767,-96.797,4,Medium,40
+2026-03-07,Threat reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Security,Threat,Medium,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-04-10,Leak reported in Dubai affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2025-03-11,Earthquake reported in Dubai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-06-17,Storm reported in Dubai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-05-23,Network Failure reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,USA,San Francisco,37.7749,-122.4194,8,High,80
+2026-01-19,Storm reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2026-02-04,Power Outage reported in Singapore affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,Singapore,Singapore,1.3521,103.8198,2,Low,20
+2025-11-15,Protest reported in Mumbai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,India,Mumbai,19.076,72.8777,3,Low,30
+2025-10-16,Strike reported in Chicago affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,USA,Chicago,41.8781,-87.6298,3,Low,30
+2025-11-07,Network Failure reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,USA,San Francisco,37.7749,-122.4194,4,Medium,40
+2025-10-24,Strike reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-07-23,Leak reported in Delhi affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,India,Delhi,28.6139,77.209,16,Critical,160
+2025-02-22,Leak reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,USA,New York,40.7128,-74.006,8,High,80
+2025-06-27,Fire reported in Birmingham affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,UK,Birmingham,52.4862,-1.8904,4,Medium,40
+2025-01-07,Power Outage reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-11-22,Storm reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2025-11-12,Crime reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-06-15,Robbery reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-01-20,Network Failure reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,USA,New York,40.7128,-74.006,4,Medium,40
+2026-03-12,Power Outage reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2026-02-13,Crime reported in London affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UK,London,51.5074,-0.1278,12,Critical,120
+2025-10-12,Water Disruption reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2026-01-04,Protest reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,India,Chennai,13.0827,80.2707,6,Medium,60
+2025-11-27,Fire reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,UAE,Abu Dhabi,24.4539,54.3773,16,Critical,160
+2025-04-24,Flood reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2025-08-31,Water Disruption reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2025-06-30,Threat reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-03-03,Network Failure reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2025-04-09,Earthquake reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,USA,Dallas,32.7767,-96.797,6,Medium,60
+2025-02-21,Water Disruption reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,USA,San Francisco,37.7749,-122.4194,6,Medium,60
+2025-06-04,Strike reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,USA,Dallas,32.7767,-96.797,6,Medium,60
+2025-01-24,Fire reported in Hyderabad affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,India,Hyderabad,17.385,78.4867,12,Critical,120
+2025-11-23,Water Disruption reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Water Disruption,Medium,India,Chennai,13.0827,80.2707,4,Medium,40
+2025-08-29,Earthquake reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-10,Power Outage reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,UAE,Abu Dhabi,24.4539,54.3773,2,Low,20
+2025-02-07,Storm reported in Dubai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-02-13,Protest reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Protest,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2026-02-02,Explosion reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,USA,New York,40.7128,-74.006,8,High,80
+2026-03-17,Robbery reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-11-09,Water Disruption reported in Singapore affecting local operations,Monitor situation and inform local teams,Infrastructure,Water Disruption,Low,Singapore,Singapore,1.3521,103.8198,2,Low,20
+2025-03-22,Strike reported in Pune affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,India,Pune,18.5204,73.8567,3,Low,30
+2025-01-02,Fire reported in Chicago affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,USA,Chicago,41.8781,-87.6298,8,High,80
+2025-01-17,Explosion reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-02-06,Water Disruption reported in Dallas affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,USA,Dallas,32.7767,-96.797,8,High,80
+2025-08-06,Leak reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,USA,Dallas,32.7767,-96.797,8,High,80
+2026-04-11,Road Blockade reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,India,Chennai,13.0827,80.2707,6,Medium,60
+2026-02-10,Flood reported in London affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-03-05,Explosion reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2025-08-13,Robbery reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Abu Dhabi,24.4539,54.3773,16,Critical,160
+2025-11-06,Storm reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,India,Chennai,13.0827,80.2707,9,High,90
+2026-01-27,Flood reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UK,London,51.5074,-0.1278,3,Low,30
+2025-09-23,Flood reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-11-22,Road Blockade reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-06-20,Robbery reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-07-30,Flood reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,UK,Birmingham,52.4862,-1.8904,9,High,90
+2025-08-21,Threat reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2026-01-31,Network Failure reported in Delhi affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,India,Delhi,28.6139,77.209,2,Low,20
+2025-01-28,Explosion reported in Dubai affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2026-01-25,Explosion reported in Dallas affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,USA,Dallas,32.7767,-96.797,16,Critical,160
+2026-04-20,Water Disruption reported in Pune affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Water Disruption,Medium,India,Pune,18.5204,73.8567,4,Medium,40
+2025-11-19,Crime reported in Manchester affecting local operations,Monitor situation and inform local teams,Security,Crime,Low,UK,Manchester,53.4808,-2.2426,4,Medium,40
+2025-10-10,Strike reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-03-02,Protest reported in Dubai affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-08-01,Water Disruption reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,USA,San Francisco,37.7749,-122.4194,6,Medium,60
+2025-07-16,Strike reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-06-24,Storm reported in Chicago affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,USA,Chicago,41.8781,-87.6298,12,Critical,120
+2026-03-05,Storm reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-06-26,Strike reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-04-23,Explosion reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2025-04-30,Road Blockade reported in London affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UK,London,51.5074,-0.1278,12,Critical,120
+2025-12-28,Water Disruption reported in Dubai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,UAE,Dubai,25.2048,55.2708,8,High,80
+2025-03-06,Strike reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2025-09-27,Storm reported in Singapore affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-02-08,Strike reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2025-11-29,Water Disruption reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-11-17,Explosion reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,India,Delhi,28.6139,77.209,12,Critical,120
+2025-11-20,Fire reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,UAE,Dubai,25.2048,55.2708,8,High,80
+2026-01-25,Storm reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,UK,London,51.5074,-0.1278,3,Low,30
+2026-04-08,Road Blockade reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,India,Bengaluru,12.9716,77.5946,9,High,90
+2025-07-03,Power Outage reported in Mumbai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,India,Mumbai,19.076,72.8777,6,Medium,60
+2025-10-17,Protest reported in Manchester affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-11-14,Protest reported in Chicago affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,USA,Chicago,41.8781,-87.6298,12,Critical,120
+2025-08-25,Fire reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,USA,San Francisco,37.7749,-122.4194,8,High,80
+2026-04-06,Water Disruption reported in Manchester affecting local operations,Monitor situation and inform local teams,Infrastructure,Water Disruption,Low,UK,Manchester,53.4808,-2.2426,2,Low,20
+2025-08-15,Fire reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2025-12-20,Water Disruption reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-03-13,Power Outage reported in Manchester affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,UK,Manchester,53.4808,-2.2426,8,High,80
+2025-10-22,Strike reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-21,Power Outage reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-03-03,Earthquake reported in Chennai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,India,Chennai,13.0827,80.2707,12,Critical,120
+2025-11-22,Explosion reported in London affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,UK,London,51.5074,-0.1278,8,High,80
+2026-04-08,Road Blockade reported in Dallas affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,USA,Dallas,32.7767,-96.797,3,Low,30
+2026-01-10,Crime reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,India,Delhi,28.6139,77.209,12,Critical,120
+2025-03-31,Network Failure reported in New York affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,USA,New York,40.7128,-74.006,8,High,80
+2026-03-02,Explosion reported in Chicago affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,USA,Chicago,41.8781,-87.6298,12,Critical,120
+2026-02-16,Robbery reported in Dallas affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,USA,Dallas,32.7767,-96.797,12,Critical,120
+2026-03-17,Flood reported in Bengaluru affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,India,Bengaluru,12.9716,77.5946,6,Medium,60
+2025-05-16,Storm reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2025-10-27,Robbery reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-08-30,Earthquake reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-11-28,Explosion reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,India,Chennai,13.0827,80.2707,8,High,80
+2025-11-29,Threat reported in Hyderabad affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,India,Hyderabad,17.385,78.4867,12,Critical,120
+2025-06-05,Protest reported in Dubai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-07-18,Flood reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2026-03-30,Explosion reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2026-04-26,Threat reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-08-16,Power Outage reported in London affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,UK,London,51.5074,-0.1278,8,High,80
+2025-10-06,Earthquake reported in Dallas affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,USA,Dallas,32.7767,-96.797,9,High,90
+2025-03-04,Robbery reported in London affecting local operations,Increase monitoring and prepare contingency plan,Security,Robbery,Medium,UK,London,51.5074,-0.1278,8,High,80
+2025-01-26,Road Blockade reported in Dubai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-02-05,Road Blockade reported in London affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-06-18,Fire reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-10-04,Power Outage reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,USA,New York,40.7128,-74.006,4,Medium,40
+2025-03-09,Earthquake reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UK,London,51.5074,-0.1278,3,Low,30
+2025-01-09,Road Blockade reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,India,Delhi,28.6139,77.209,9,High,90
+2025-09-27,Flood reported in Dallas affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,USA,Dallas,32.7767,-96.797,12,Critical,120
+2026-02-03,Storm reported in Hyderabad affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,India,Hyderabad,17.385,78.4867,12,Critical,120
+2025-09-15,Fire reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2025-11-26,Explosion reported in New York affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,USA,New York,40.7128,-74.006,16,Critical,160
+2025-12-18,Robbery reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,India,Mumbai,19.076,72.8777,16,Critical,160
+2025-06-14,Crime reported in Bengaluru affecting local operations,Monitor situation and inform local teams,Security,Crime,Low,India,Bengaluru,12.9716,77.5946,4,Medium,40
+2025-11-16,Flood reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-08-21,Threat reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-03-13,Earthquake reported in Singapore affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-07-31,Robbery reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Security,Robbery,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-06-10,Robbery reported in Manchester affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,UK,Manchester,53.4808,-2.2426,4,Medium,40
+2025-12-18,Network Failure reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,UAE,Abu Dhabi,24.4539,54.3773,4,Medium,40
+2025-08-10,Flood reported in Dubai affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-10-28,Power Outage reported in Hyderabad affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,India,Hyderabad,17.385,78.4867,2,Low,20
+2026-03-24,Storm reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-06-30,Water Disruption reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2025-12-03,Fire reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,India,Chennai,13.0827,80.2707,8,High,80
+2025-02-28,Storm reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-11-08,Strike reported in Birmingham affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,UK,Birmingham,52.4862,-1.8904,3,Low,30
+2026-04-17,Strike reported in London affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UK,London,51.5074,-0.1278,9,High,90
+2025-10-17,Flood reported in Manchester affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2025-02-16,Road Blockade reported in Dubai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-06-24,Robbery reported in Singapore affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2026-02-02,Water Disruption reported in Dallas affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,USA,Dallas,32.7767,-96.797,6,Medium,60
+2026-01-22,Flood reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-12-05,Storm reported in Singapore affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-05-20,Explosion reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,UAE,Abu Dhabi,24.4539,54.3773,16,Critical,160
+2025-05-26,Network Failure reported in New York affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,USA,New York,40.7128,-74.006,2,Low,20
+2025-01-24,Leak reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Leak,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-04-15,Fire reported in San Francisco affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,USA,San Francisco,37.7749,-122.4194,4,Medium,40
+2025-06-17,Strike reported in London affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UK,London,51.5074,-0.1278,9,High,90
+2025-03-31,Threat reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,India,Mumbai,19.076,72.8777,16,Critical,160
+2025-09-14,Leak reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,USA,San Francisco,37.7749,-122.4194,8,High,80
+2025-08-12,Storm reported in Singapore affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-10-21,Storm reported in Bengaluru affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,India,Bengaluru,12.9716,77.5946,12,Critical,120
+2025-01-11,Power Outage reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-02-15,Explosion reported in London affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,UK,London,51.5074,-0.1278,12,Critical,120
+2025-09-26,Strike reported in Dubai affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-04-24,Water Disruption reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,India,Bengaluru,12.9716,77.5946,6,Medium,60
+2025-09-29,Earthquake reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UK,London,51.5074,-0.1278,3,Low,30
+2025-05-01,Network Failure reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2025-11-05,Power Outage reported in Pune affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,India,Pune,18.5204,73.8567,4,Medium,40
+2025-08-26,Road Blockade reported in New York affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,USA,New York,40.7128,-74.006,12,Critical,120
+2026-03-19,Leak reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Leak,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-08-15,Crime reported in London affecting local operations,Immediate escalation and crisis response required,Security,Crime,Critical,UK,London,51.5074,-0.1278,16,Critical,160
+2025-09-17,Fire reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-01-30,Robbery reported in Delhi affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,India,Delhi,28.6139,77.209,4,Medium,40
+2025-11-11,Earthquake reported in Manchester affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UK,Manchester,53.4808,-2.2426,3,Low,30
+2025-08-19,Threat reported in Singapore affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2025-09-14,Water Disruption reported in Singapore affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,Singapore,Singapore,1.3521,103.8198,8,High,80
+2026-01-01,Crime reported in New York affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,USA,New York,40.7128,-74.006,12,Critical,120
+2025-12-29,Protest reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,India,Chennai,13.0827,80.2707,6,Medium,60
+2025-07-06,Leak reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-12-14,Robbery reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-02-18,Power Outage reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Power Outage,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-06-20,Network Failure reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2025-12-02,Strike reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,India,Chennai,13.0827,80.2707,9,High,90
+2025-06-08,Leak reported in Dubai affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2025-11-27,Power Outage reported in Singapore affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,Singapore,Singapore,1.3521,103.8198,2,Low,20
+2025-04-03,Storm reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2025-03-12,Crime reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,USA,Dallas,32.7767,-96.797,8,High,80
+2025-12-05,Power Outage reported in New York affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,USA,New York,40.7128,-74.006,2,Low,20
+2025-03-20,Road Blockade reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-01-23,Fire reported in Chicago affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,USA,Chicago,41.8781,-87.6298,16,Critical,160
+2026-01-21,Strike reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2026-02-19,Fire reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-08-25,Water Disruption reported in Dubai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,UAE,Dubai,25.2048,55.2708,8,High,80
+2025-03-24,Leak reported in Manchester affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,UK,Manchester,53.4808,-2.2426,16,Critical,160
+2026-03-24,Power Outage reported in Chicago affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,USA,Chicago,41.8781,-87.6298,8,High,80
+2025-05-26,Earthquake reported in Birmingham affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UK,Birmingham,52.4862,-1.8904,3,Low,30
+2026-03-02,Network Failure reported in Pune affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,India,Pune,18.5204,73.8567,4,Medium,40
+2026-04-22,Strike reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-01,Storm reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,India,Bengaluru,12.9716,77.5946,9,High,90
+2025-06-13,Power Outage reported in Dubai affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,UAE,Dubai,25.2048,55.2708,2,Low,20
+2025-01-20,Power Outage reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,India,Hyderabad,17.385,78.4867,4,Medium,40
+2025-08-18,Road Blockade reported in Manchester affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-04-21,Flood reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-06-04,Storm reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,USA,San Francisco,37.7749,-122.4194,6,Medium,60
+2025-02-02,Strike reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,India,Mumbai,19.076,72.8777,12,Critical,120
+2025-11-20,Leak reported in Bengaluru affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,India,Bengaluru,12.9716,77.5946,4,Medium,40
+2025-01-01,Strike reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-04-06,Road Blockade reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-07-19,Power Outage reported in Chennai affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,India,Chennai,13.0827,80.2707,2,Low,20
+2026-01-18,Robbery reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2026-01-11,Storm reported in Delhi affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,India,Delhi,28.6139,77.209,6,Medium,60
+2025-06-30,Power Outage reported in Chennai affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,India,Chennai,13.0827,80.2707,2,Low,20
+2025-12-23,Road Blockade reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-01-19,Protest reported in Dubai affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-06-11,Flood reported in London affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UK,London,51.5074,-0.1278,3,Low,30
+2025-05-10,Threat reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2026-03-18,Strike reported in Hyderabad affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,India,Hyderabad,17.385,78.4867,9,High,90
+2026-02-14,Network Failure reported in Hyderabad affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,India,Hyderabad,17.385,78.4867,2,Low,20
+2026-04-04,Threat reported in Manchester affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UK,Manchester,53.4808,-2.2426,16,Critical,160
+2025-07-08,Strike reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-02-10,Earthquake reported in Singapore affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-02-22,Explosion reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-11-05,Network Failure reported in Delhi affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,India,Delhi,28.6139,77.209,8,High,80
+2025-01-22,Robbery reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-02-08,Robbery reported in Birmingham affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,UK,Birmingham,52.4862,-1.8904,4,Medium,40
+2025-01-16,Leak reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-05-01,Flood reported in San Francisco affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,USA,San Francisco,37.7749,-122.4194,3,Low,30
+2025-11-06,Threat reported in Manchester affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,UK,Manchester,53.4808,-2.2426,4,Medium,40
+2026-01-26,Network Failure reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,USA,San Francisco,37.7749,-122.4194,8,High,80
+2025-07-23,Road Blockade reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,India,Chennai,13.0827,80.2707,9,High,90
+2025-01-14,Power Outage reported in Birmingham affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,UK,Birmingham,52.4862,-1.8904,2,Low,20
+2025-05-15,Explosion reported in San Francisco affecting local operations,Monitor situation and inform local teams,Industrial Incident,Explosion,Low,USA,San Francisco,37.7749,-122.4194,4,Medium,40
+2025-12-22,Crime reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-08-20,Flood reported in Dubai affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-12-08,Earthquake reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,USA,San Francisco,37.7749,-122.4194,9,High,90
+2026-04-02,Earthquake reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,UK,Birmingham,52.4862,-1.8904,9,High,90
+2025-03-04,Strike reported in London affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-07-04,Strike reported in Chicago affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,USA,Chicago,41.8781,-87.6298,3,Low,30
+2025-11-10,Threat reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Security,Threat,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-09-27,Network Failure reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,India,Mumbai,19.076,72.8777,8,High,80
+2025-06-12,Fire reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-03-07,Threat reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,India,Bengaluru,12.9716,77.5946,12,Critical,120
+2026-03-02,Strike reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-03-24,Strike reported in Chennai affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,India,Chennai,13.0827,80.2707,6,Medium,60
+2026-03-10,Strike reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UK,Birmingham,52.4862,-1.8904,9,High,90
+2025-03-06,Road Blockade reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,India,Delhi,28.6139,77.209,9,High,90
+2025-10-31,Fire reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-03-08,Road Blockade reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-11-25,Flood reported in Singapore affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-11-13,Road Blockade reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-09-05,Explosion reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,India,Bengaluru,12.9716,77.5946,12,Critical,120
+2025-12-19,Network Failure reported in San Francisco affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,USA,San Francisco,37.7749,-122.4194,2,Low,20
+2025-08-26,Robbery reported in Pune affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,India,Pune,18.5204,73.8567,16,Critical,160
+2026-03-18,Fire reported in Dallas affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,USA,Dallas,32.7767,-96.797,12,Critical,120
+2026-01-25,Network Failure reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,UK,Birmingham,52.4862,-1.8904,4,Medium,40
+2025-05-04,Fire reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-03-14,Network Failure reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2025-05-08,Network Failure reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,India,Mumbai,19.076,72.8777,8,High,80
+2025-04-08,Leak reported in Dallas affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Leak,High,USA,Dallas,32.7767,-96.797,12,Critical,120
+2026-03-27,Explosion reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Explosion,Critical,USA,San Francisco,37.7749,-122.4194,16,Critical,160
+2025-09-16,Flood reported in Manchester affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-01-25,Road Blockade reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-27,Threat reported in Delhi affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,India,Delhi,28.6139,77.209,16,Critical,160
+2026-03-28,Storm reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-01-24,Network Failure reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,UK,Birmingham,52.4862,-1.8904,6,Medium,60
+2025-07-05,Leak reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UAE,Dubai,25.2048,55.2708,8,High,80
+2026-01-27,Storm reported in Singapore affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-03-07,Leak reported in Singapore affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2026-01-22,Network Failure reported in Bengaluru affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,India,Bengaluru,12.9716,77.5946,6,Medium,60
+2025-09-14,Leak reported in Chicago affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,USA,Chicago,41.8781,-87.6298,16,Critical,160
+2026-02-16,Flood reported in Mumbai affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,India,Mumbai,19.076,72.8777,9,High,90
+2025-06-17,Road Blockade reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-10-31,Strike reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-12-29,Leak reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2025-06-19,Crime reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-11-02,Explosion reported in Bengaluru affecting local operations,Monitor situation and inform local teams,Industrial Incident,Explosion,Low,India,Bengaluru,12.9716,77.5946,4,Medium,40
+2026-01-05,Leak reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-03-17,Crime reported in Chennai affecting local operations,Immediate escalation and crisis response required,Security,Crime,Critical,India,Chennai,13.0827,80.2707,16,Critical,160
+2025-04-08,Leak reported in New York affecting local operations,Monitor situation and inform local teams,Industrial Incident,Leak,Low,USA,New York,40.7128,-74.006,4,Medium,40
+2025-07-31,Network Failure reported in Bengaluru affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,India,Bengaluru,12.9716,77.5946,4,Medium,40
+2026-03-23,Leak reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,USA,San Francisco,37.7749,-122.4194,16,Critical,160
+2025-10-15,Road Blockade reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,India,Hyderabad,17.385,78.4867,6,Medium,60
+2025-06-10,Threat reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UK,Birmingham,52.4862,-1.8904,16,Critical,160
+2025-12-13,Explosion reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,USA,San Francisco,37.7749,-122.4194,12,Critical,120
+2025-05-23,Crime reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,UK,Birmingham,52.4862,-1.8904,8,High,80
+2025-12-27,Strike reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-10-14,Network Failure reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,USA,San Francisco,37.7749,-122.4194,6,Medium,60
+2026-04-04,Earthquake reported in Manchester affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-05-28,Strike reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2026-01-18,Threat reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,India,Delhi,28.6139,77.209,12,Critical,120
+2026-04-23,Road Blockade reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-05,Protest reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-01-27,Fire reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,India,Hyderabad,17.385,78.4867,8,High,80
+2025-02-21,Water Disruption reported in Bengaluru affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,India,Bengaluru,12.9716,77.5946,8,High,80
+2025-12-01,Fire reported in New York affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,USA,New York,40.7128,-74.006,16,Critical,160
+2025-05-27,Strike reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2026-04-13,Fire reported in Mumbai affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,India,Mumbai,19.076,72.8777,4,Medium,40
+2026-02-08,Protest reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,USA,San Francisco,37.7749,-122.4194,12,Critical,120
+2025-06-02,Power Outage reported in Dubai affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,UAE,Dubai,25.2048,55.2708,2,Low,20
+2025-11-25,Network Failure reported in Singapore affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-05-20,Road Blockade reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-11-28,Power Outage reported in New York affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,USA,New York,40.7128,-74.006,8,High,80
+2026-02-09,Protest reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Protest,High,UK,Birmingham,52.4862,-1.8904,9,High,90
+2026-02-28,Protest reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-04-05,Storm reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Natural Hazard,Storm,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2025-05-14,Power Outage reported in San Francisco affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,USA,San Francisco,37.7749,-122.4194,2,Low,20
+2025-06-04,Robbery reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-12-21,Water Disruption reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-03-23,Storm reported in New York affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,USA,New York,40.7128,-74.006,9,High,90
+2025-07-08,Earthquake reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2025-03-20,Protest reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2026-01-23,Threat reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UAE,Abu Dhabi,24.4539,54.3773,16,Critical,160
+2025-09-27,Road Blockade reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-02-01,Earthquake reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,UAE,Abu Dhabi,24.4539,54.3773,3,Low,30
+2025-03-26,Leak reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2026-01-03,Crime reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-02-19,Earthquake reported in Singapore affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-08-22,Road Blockade reported in Bengaluru affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,India,Bengaluru,12.9716,77.5946,12,Critical,120
+2026-01-06,Explosion reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Explosion,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-10-24,Power Outage reported in Bengaluru affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,India,Bengaluru,12.9716,77.5946,4,Medium,40
+2025-10-05,Robbery reported in Mumbai affecting local operations,Monitor situation and inform local teams,Security,Robbery,Low,India,Mumbai,19.076,72.8777,4,Medium,40
+2025-07-29,Crime reported in Mumbai affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,India,Mumbai,19.076,72.8777,12,Critical,120
+2025-08-18,Robbery reported in Chicago affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,USA,Chicago,41.8781,-87.6298,16,Critical,160
+2025-12-01,Earthquake reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-09-28,Road Blockade reported in London affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UK,London,51.5074,-0.1278,12,Critical,120
+2025-08-26,Flood reported in Chicago affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,USA,Chicago,41.8781,-87.6298,9,High,90
+2025-05-07,Explosion reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Explosion,Medium,Singapore,Singapore,1.3521,103.8198,8,High,80
+2026-04-25,Strike reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2025-05-04,Threat reported in Mumbai affecting local operations,Monitor situation and inform local teams,Security,Threat,Low,India,Mumbai,19.076,72.8777,4,Medium,40
+2025-08-17,Earthquake reported in New York affecting local operations,Monitor situation and inform local teams,Natural Hazard,Earthquake,Low,USA,New York,40.7128,-74.006,3,Low,30
+2025-07-25,Road Blockade reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2025-03-13,Fire reported in Dubai affecting local operations,Monitor situation and inform local teams,Industrial Incident,Fire,Low,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2025-10-23,Road Blockade reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-12-05,Strike reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Strike,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-02-01,Robbery reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-01-25,Threat reported in Singapore affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2025-12-23,Threat reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Security,Threat,High,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-04-05,Strike reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2026-03-16,Protest reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Protest,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-08-02,Earthquake reported in San Francisco affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,USA,San Francisco,37.7749,-122.4194,12,Critical,120
+2025-04-15,Crime reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-02-17,Storm reported in Birmingham affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Storm,High,UK,Birmingham,52.4862,-1.8904,9,High,90
+2025-12-11,Storm reported in Singapore affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Storm,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-09-03,Flood reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2026-04-25,Power Outage reported in Dallas affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,USA,Dallas,32.7767,-96.797,4,Medium,40
+2025-07-23,Crime reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Security,Crime,Medium,USA,New York,40.7128,-74.006,8,High,80
+2025-10-01,Network Failure reported in Dallas affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,USA,Dallas,32.7767,-96.797,8,High,80
+2025-08-27,Network Failure reported in Manchester affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,UK,Manchester,53.4808,-2.2426,8,High,80
+2025-07-09,Robbery reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Security,Robbery,Medium,India,Hyderabad,17.385,78.4867,8,High,80
+2026-01-15,Earthquake reported in Manchester affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2025-06-01,Water Disruption reported in New York affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,USA,New York,40.7128,-74.006,8,High,80
+2025-10-19,Power Outage reported in Chicago affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,USA,Chicago,41.8781,-87.6298,8,High,80
+2025-05-12,Leak reported in San Francisco affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Leak,High,USA,San Francisco,37.7749,-122.4194,12,Critical,120
+2025-03-28,Crime reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-09-26,Road Blockade reported in San Francisco affecting local operations,Monitor situation and inform local teams,Civil Unrest,Road Blockade,Low,USA,San Francisco,37.7749,-122.4194,3,Low,30
+2025-03-12,Flood reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,India,Mumbai,19.076,72.8777,12,Critical,120
+2025-09-16,Protest reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Protest,Medium,USA,New York,40.7128,-74.006,6,Medium,60
+2025-12-04,Earthquake reported in Abu Dhabi affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-01-07,Earthquake reported in Dubai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Earthquake,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-01-09,Water Disruption reported in Chennai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Water Disruption,High,India,Chennai,13.0827,80.2707,6,Medium,60
+2025-09-26,Protest reported in Singapore affecting local operations,Monitor situation and inform local teams,Civil Unrest,Protest,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2026-02-22,Road Blockade reported in Chicago affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,USA,Chicago,41.8781,-87.6298,9,High,90
+2025-07-27,Crime reported in Manchester affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UK,Manchester,53.4808,-2.2426,12,Critical,120
+2025-12-01,Strike reported in Dubai affecting local operations,Monitor situation and inform local teams,Civil Unrest,Strike,Low,UAE,Dubai,25.2048,55.2708,3,Low,30
+2025-10-10,Robbery reported in Mumbai affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,India,Mumbai,19.076,72.8777,16,Critical,160
+2025-02-12,Earthquake reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2026-04-04,Water Disruption reported in Abu Dhabi affecting local operations,Monitor situation and inform local teams,Infrastructure,Water Disruption,Low,UAE,Abu Dhabi,24.4539,54.3773,2,Low,20
+2025-05-19,Protest reported in Singapore affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Protest,Critical,Singapore,Singapore,1.3521,103.8198,12,Critical,120
+2025-04-02,Water Disruption reported in Mumbai affecting local operations,Monitor situation and inform local teams,Infrastructure,Water Disruption,Low,India,Mumbai,19.076,72.8777,2,Low,20
+2026-01-21,Road Blockade reported in London affecting local operations,Increase monitoring and prepare contingency plan,Civil Unrest,Road Blockade,Medium,UK,London,51.5074,-0.1278,6,Medium,60
+2025-10-18,Power Outage reported in Dubai affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Power Outage,Medium,UAE,Dubai,25.2048,55.2708,4,Medium,40
+2026-02-09,Threat reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Security,Threat,Medium,UAE,Abu Dhabi,24.4539,54.3773,8,High,80
+2025-08-12,Power Outage reported in Chennai affecting local operations,Monitor situation and inform local teams,Infrastructure,Power Outage,Low,India,Chennai,13.0827,80.2707,2,Low,20
+2026-02-01,Water Disruption reported in New York affecting local operations,Immediate escalation and crisis response required,Infrastructure,Water Disruption,Critical,USA,New York,40.7128,-74.006,8,High,80
+2025-04-27,Network Failure reported in London affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,UK,London,51.5074,-0.1278,8,High,80
+2025-12-15,Robbery reported in Birmingham affecting local operations,Increase monitoring and prepare contingency plan,Security,Robbery,Medium,UK,Birmingham,52.4862,-1.8904,8,High,80
+2026-02-13,Earthquake reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Earthquake,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2025-07-14,Storm reported in New York affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Storm,Medium,USA,New York,40.7128,-74.006,6,Medium,60
+2025-02-16,Network Failure reported in San Francisco affecting local operations,Monitor situation and inform local teams,Infrastructure,Network Failure,Low,USA,San Francisco,37.7749,-122.4194,2,Low,20
+2025-02-22,Robbery reported in Delhi affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,India,Delhi,28.6139,77.209,12,Critical,120
+2025-10-13,Strike reported in New York affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Strike,Critical,USA,New York,40.7128,-74.006,12,Critical,120
+2025-07-01,Flood reported in Singapore affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,Singapore,Singapore,1.3521,103.8198,3,Low,30
+2026-02-03,Network Failure reported in Dubai affecting local operations,Immediate escalation and crisis response required,Infrastructure,Network Failure,Critical,UAE,Dubai,25.2048,55.2708,8,High,80
+2025-12-17,Fire reported in Hyderabad affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Fire,Medium,India,Hyderabad,17.385,78.4867,8,High,80
+2025-05-18,Strike reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Strike,High,UAE,Dubai,25.2048,55.2708,9,High,90
+2025-05-22,Flood reported in Dubai affecting local operations,Immediate escalation and crisis response required,Natural Hazard,Flood,Critical,UAE,Dubai,25.2048,55.2708,12,Critical,120
+2025-05-09,Crime reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Security,Crime,High,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-08-23,Leak reported in San Francisco affecting local operations,Increase monitoring and prepare contingency plan,Industrial Incident,Leak,Medium,USA,San Francisco,37.7749,-122.4194,8,High,80
+2025-06-20,Power Outage reported in Pune affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,India,Pune,18.5204,73.8567,8,High,80
+2025-08-09,Network Failure reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,Singapore,Singapore,1.3521,103.8198,6,Medium,60
+2025-09-03,Network Failure reported in Singapore affecting local operations,Increase monitoring and prepare contingency plan,Infrastructure,Network Failure,Medium,Singapore,Singapore,1.3521,103.8198,4,Medium,40
+2026-01-12,Robbery reported in London affecting local operations,Notify leadership and activate continuity actions,Security,Robbery,High,UK,London,51.5074,-0.1278,12,Critical,120
+2026-02-23,Network Failure reported in Dubai affecting local operations,Notify leadership and activate continuity actions,Infrastructure,Network Failure,High,UAE,Dubai,25.2048,55.2708,6,Medium,60
+2025-10-31,Earthquake reported in Abu Dhabi affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Earthquake,Medium,UAE,Abu Dhabi,24.4539,54.3773,6,Medium,60
+2026-04-28,Fire reported in Singapore affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Fire,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2026-02-24,Water Disruption reported in San Francisco affecting local operations,Monitor situation and inform local teams,Infrastructure,Water Disruption,Low,USA,San Francisco,37.7749,-122.4194,2,Low,20
+2025-05-04,Road Blockade reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Civil Unrest,Road Blockade,High,UAE,Abu Dhabi,24.4539,54.3773,9,High,90
+2026-02-09,Road Blockade reported in Birmingham affecting local operations,Immediate escalation and crisis response required,Civil Unrest,Road Blockade,Critical,UK,Birmingham,52.4862,-1.8904,12,Critical,120
+2025-10-26,Threat reported in Dubai affecting local operations,Immediate escalation and crisis response required,Security,Threat,Critical,UAE,Dubai,25.2048,55.2708,16,Critical,160
+2025-12-26,Fire reported in Abu Dhabi affecting local operations,Notify leadership and activate continuity actions,Industrial Incident,Fire,High,UAE,Abu Dhabi,24.4539,54.3773,12,Critical,120
+2025-03-27,Flood reported in Singapore affecting local operations,Notify leadership and activate continuity actions,Natural Hazard,Flood,High,Singapore,Singapore,1.3521,103.8198,9,High,90
+2026-01-21,Leak reported in Singapore affecting local operations,Immediate escalation and crisis response required,Industrial Incident,Leak,Critical,Singapore,Singapore,1.3521,103.8198,16,Critical,160
+2025-05-13,Flood reported in Manchester affecting local operations,Monitor situation and inform local teams,Natural Hazard,Flood,Low,UK,Manchester,53.4808,-2.2426,3,Low,30
+2025-08-26,Robbery reported in Chicago affecting local operations,Immediate escalation and crisis response required,Security,Robbery,Critical,USA,Chicago,41.8781,-87.6298,16,Critical,160
+2025-02-23,Power Outage reported in Singapore affecting local operations,Immediate escalation and crisis response required,Infrastructure,Power Outage,Critical,Singapore,Singapore,1.3521,103.8198,8,High,80
+2025-06-28,Flood reported in Manchester affecting local operations,Increase monitoring and prepare contingency plan,Natural Hazard,Flood,Medium,UK,Manchester,53.4808,-2.2426,6,Medium,60
+2025-06-28,Crime reported in Manchester affecting local operations,Immediate escalation and crisis response required,Security,Crime,Critical,UK,Manchester,53.4808,-2.2426,16,Critical,160
