@@ -275,7 +275,13 @@ def colored_metric(label, value, color):
             text-align:center;
             box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
         ">
-            <h4 style="margin:0; white-space: nowrap;">{label}</h4>
+            <h4 style="
+    margin:0;
+    white-space: nowrap;
+    font-size:16px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+">{label}</h4>
             <h2 style="margin:5px 0 0 0;">{value}</h2>
         </div>
         """,
