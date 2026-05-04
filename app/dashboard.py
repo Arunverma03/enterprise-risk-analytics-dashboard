@@ -11,9 +11,13 @@ TABLE_NAME = "risk_events"
 
 @st.cache_data
 def load_data():
-    engine = create_engine(f"sqlite:///{DATABASE_PATH}")
-    df = pd.read_sql(f"SELECT * FROM {TABLE_NAME}", engine)
-    df["date"] = pd.to_datetime(df["date"])
+    try:
+        engine = create_engine(f"sqlite:///{DATABASE_PATH}")
+        df = pd.read_sql(f"SELECT * FROM {TABLE_NAME}", engine)
+    except Exception:
+        df = pd.read_csv("data/scored_risk_events.csv")
+
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
     return df
 @st.cache_resource
 def load_model():
