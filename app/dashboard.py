@@ -282,23 +282,23 @@ def colored_metric(label, value, color):
     overflow:hidden;
     text-overflow:ellipsis;
 ">{label}</h4>
-            <h2 style="margin:5px 0 0 0;">{value}</h2>
+            <h2 style="margin:5px 0 0 0; font-size:28px;">{value}</h2>
         </div>
         """,
         unsafe_allow_html=True
     )
 
 with col1:
-    colored_metric("Total Events", total_events, "#1e293b")
+    colored_metric("📊 Total Events", total_events, "#1e293b")
 
 with col2:
-    colored_metric("High/Critical Events", high_risk_events, "#b91c1c")
+    colored_metric("🚨 High/Critical", high_risk_events, "#b91c1c")
 
 with col3:
-    colored_metric("Average Risk Score", avg_risk_score, "#2563eb")
+    colored_metric("📈 Avg Risk Score", avg_risk_score, "#2563eb")
 
 with col4:
-    colored_metric("Countries Affected", countries_affected, "#047857")
+    colored_metric("🌍 Countries", countries_affected, "#047857")
 if total_events > 0:
     executive_insight = f"""
     Based on the current filters, the highest operational exposure is concentrated in 
