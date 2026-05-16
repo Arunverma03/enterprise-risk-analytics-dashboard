@@ -1,43 +1,35 @@
 # Enterprise Risk Intelligence Platform
 
-An AI-driven risk analytics and operational triage dashboard built using Python, Streamlit, Plotly, SQLite, and Machine Learning.
+AI-driven operational risk analytics and decision intelligence dashboard for enterprise monitoring, triage, and executive reporting.
+
+---
 
 ## Features
 
-- Executive risk dashboard
-- Risk scoring pipeline
-- ML-based risk rating prediction
-- Geographic risk map
-- Operational triage center
-- SLA and priority monitoring
-- Data quality checks
-- CSV upload support
-- Executive report downloads
-- Live Streamlit deployment
+- Real-time Risk Monitoring
+- Executive Analytics Dashboard
+- ML-Based Risk Scoring
+- Risk Heatmap & Geospatial Mapping
+- Triage Center
+- Incident Classification
+- Predictive Risk Intelligence
+- Interactive Filtering & Search
+- CSV Upload Support
+- Executive Reporting
 
-## Tech Stack
+---
+
+## Technology Stack
 
 - Python
 - Streamlit
-- Pandas
 - Plotly
-- Scikit-learn
+- Pandas
 - SQLAlchemy
 - SQLite
-- GitHub
-- Streamlit Cloud
+- Machine Learning
 
-## Project Workflow
-
-```text
-Raw Risk Data
-→ Data Cleaning
-→ Risk Scoring
-→ Database / CSV fallback
-→ Dashboard Analytics
-→ Triage Center
-→ ML Prediction
-→ Executive Reports
+---
 
 ## Dashboard Preview
 
@@ -45,18 +37,40 @@ Raw Risk Data
 
 ![Dashboard](app/assets/dashboard.png)
 
+---
+
 ### Analytics View
 
 ![Analytics](app/assets/analytics.png)
+
+---
 
 ### Risk Map
 
 ![Risk Map](app/assets/map.png)
 
+---
+
 ### Triage Center
 
 ![Triage](app/assets/Triage Center.png)
 
+---
+
 ### ML Prediction
 
 ![Prediction](app/assets/ml prediction.png)
+
+---
+
+## Project Structure
+
+```bash
+app/
+data/
+database/
+models/
+reports/
+src/
+README.md
+requirements.txt
