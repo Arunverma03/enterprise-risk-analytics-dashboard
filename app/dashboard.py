@@ -4,6 +4,9 @@ import plotly.express as px
 from sqlalchemy import create_engine
 import joblib
 
+if "kpi_filter" not in st.session_state:
+    st.session_state.kpi_filter = None
+
 
 DATABASE_PATH = "database/risk_analytics.db"
 TABLE_NAME = "risk_events"
@@ -186,20 +189,32 @@ if len(selected_date_range) == 2:
         (filtered_df["date"].dt.date >= start_date) &
         (filtered_df["date"].dt.date <= end_date)
     ]
+
+# KPI click filter
+if st.session_state.kpi_filter == "HIGH":
+    filtered_df = filtered_df[
+        filtered_df["risk_rating"].isin(["High", "Critical"])
+    ]
+
+if filtered_df.empty:
+    st.warning("No records match current filters.")
+    st.stop()
+
+if st.session_state.kpi_filter == "HIGH":
+    st.info("Active KPI Filter: High/Critical Events")
+
 if view_mode == "Executive":
     st.success("Executive mode enabled: high-level strategic insights.")
 elif view_mode == "Operational":
     st.warning("Operational mode enabled: prioritize active alerts and field actions.")
 else:
     st.info("Standard mode enabled: balanced analytics view.")
-
 if view_mode == "Executive":
     st.caption("Recommended tabs: Executive Overview, Analytics, Data & Reports")
 elif view_mode == "Operational":
     st.caption("Recommended tabs: Alerts, Risk Map, Data & Reports")
 else:
     st.caption("Recommended tabs: All tabs available for complete analysis")
-
 # KPIs
 total_events = len(filtered_df)
 high_risk_events = len(filtered_df[filtered_df["risk_rating"].isin(["High", "Critical"])])
@@ -289,9 +304,13 @@ def colored_metric(label, value, color):
     )
 
 with col1:
+    if st.button("📊 Total Events", key="total_events_btn"):
+        st.session_state.kpi_filter = None
     colored_metric("📊 Total Events", total_events, "#1e293b")
 
 with col2:
+    if st.button("🚨 High/Critical", key="high_critical_btn"):
+        st.session_state.kpi_filter = "HIGH"
     colored_metric("🚨 High/Critical", high_risk_events, "#b91c1c")
 
 with col3:
@@ -364,7 +383,7 @@ with overview_tab:
         .sort_values(by="avg_risk_score", ascending=False)
     )
 
-    st.dataframe(country_risk, use_container_width=True)
+    st.dataframe(country_risk, width="stretch")
     st.subheader("Top Risk Cities")
 
     city_risk = (
@@ -385,7 +404,7 @@ with overview_tab:
         title="Top 10 Cities by Average Risk Score"
     )
 
-    st.plotly_chart(city_chart, use_container_width=True)
+    st.plotly_chart(city_chart, width="stretch")
     st.subheader("Executive KPI Snapshot")
 
     overview_col1, overview_col2, overview_col3 = st.columns(3)
@@ -409,8 +428,8 @@ with analytics_tab:
             color="risk_rating",
             title="Category-wise Risk Distribution"
         )
-        st.plotly_chart(category_chart, use_container_width=True)
-
+        with st.spinner("Loading analytics..."):
+            st.plotly_chart(category_chart, width="stretch")
     with col6:
         st.subheader("Risk Rating Distribution")
         rating_chart = px.pie(
@@ -418,7 +437,8 @@ with analytics_tab:
             names="risk_rating",
             title="Risk Rating Share"
         )
-        st.plotly_chart(rating_chart, use_container_width=True)
+        with st.spinner("Loading analytics..."):
+            st.plotly_chart(rating_chart, width="stretch")
 
     st.subheader("Risk Trend Over Time")
 
@@ -439,7 +459,7 @@ with analytics_tab:
         title="Average Risk Score Over Time"
     )
 
-    st.plotly_chart(trend_chart, use_container_width=True)
+    st.plotly_chart(trend_chart, width="stretch")
     st.subheader("Risk Heatmap: Category vs Impact Level")
 
     heatmap_df = (
@@ -455,7 +475,7 @@ with analytics_tab:
         title="Average Risk Score by Category and Impact Level"
     )
 
-    st.plotly_chart(heatmap_chart, use_container_width=True)
+    st.plotly_chart(heatmap_chart, width="stretch")
     st.subheader("Severity Breakdown by Category")
 
     severity_table = (
@@ -468,7 +488,7 @@ with analytics_tab:
         )
     )
 
-    st.dataframe(severity_table, use_container_width=True)
+    st.dataframe(severity_table, width="stretch")
 
     st.subheader("Risk Category Drilldown")
 
@@ -491,13 +511,13 @@ with analytics_tab:
         len(drilldown_df[drilldown_df["risk_rating"].isin(["High", "Critical"])])
     )
 
-    st.dataframe(drilldown_df, use_container_width=True)
+    st.dataframe(drilldown_df, width="stretch")
 
 
 with map_tab:
     st.subheader("Geographic Risk Map")
 
-    map_fig = px.scatter_mapbox(
+    map_fig = px.scatter_map(
         filtered_df,
         lat="latitude",
         lon="longitude",
@@ -509,10 +529,9 @@ with map_tab:
         height=500
     )
 
-    map_fig.update_layout(mapbox_style="open-street-map")
     map_fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 
-    st.plotly_chart(map_fig, use_container_width=True)
+    st.plotly_chart(map_fig, width="stretch")
     
 with alerts_tab:
     st.subheader("High Risk Alerts")
@@ -554,7 +573,7 @@ with alerts_tab:
             ]
         ].head(20)
 
-        st.dataframe(alert_priority_table, use_container_width=True)
+        st.dataframe(alert_priority_table, width="stretch")
         st.subheader("Operational Response Tracker")
 
     response_status = pd.DataFrame({
@@ -563,7 +582,7 @@ with alerts_tab:
         "owner_team": ["Crisis Team", "Security Ops", "Regional Ops", "Monitoring Desk"]
     })
 
-    st.dataframe(response_status, use_container_width=True)
+    st.dataframe(response_status, width="stretch")
 
 
 
@@ -642,7 +661,7 @@ else:
         ]
     })
 
-    st.dataframe(sla_summary, use_container_width=True)
+    st.dataframe(sla_summary, width="stretch")
 
     st.subheader("Triage Status Summary")
 
@@ -679,7 +698,7 @@ else:
         title="Incidents by Triage Status"
     )
 
-    st.plotly_chart(status_chart, use_container_width=True)
+    st.plotly_chart(status_chart, width="stretch")
     
     st.subheader("Recommended Action Playbook")
 
@@ -694,7 +713,7 @@ else:
         "business_priority": ["Urgent", "High", "Moderate", "Low"]
     })
 
-    st.dataframe(playbook, use_container_width=True)
+    st.dataframe(playbook, width="stretch")
     triage_df["date"] = pd.to_datetime(triage_df["date"], errors="coerce")
     latest_date = triage_df["date"].max()
 
@@ -721,7 +740,7 @@ else:
         title="Incidents by Aging Bucket"
     )
 
-    st.plotly_chart(aging_chart, use_container_width=True)
+    st.plotly_chart(aging_chart, width="stretch")
     triage_df["resolution_recommendation"] = triage_df["priority_label"].map({
         "P1 - Immediate": "Escalate immediately and activate crisis response",
         "P2 - High": "Assign to operations team and monitor continuously",
@@ -749,7 +768,7 @@ else:
     ]
 ].sort_values(by="alert_priority_score", ascending=False)
 
-st.dataframe(triage_table, use_container_width=True)
+st.dataframe(triage_table, width="stretch")
 
 triage_summary_text = f"""
 Enterprise Risk Triage Summary
@@ -802,7 +821,7 @@ with data_tab:
         st.warning("Dataset has missing values or duplicate rows. Review before decision-making.")
 
     st.subheader("Risk Event Data")
-    st.dataframe(filtered_df, use_container_width=True)
+    st.dataframe(filtered_df, width="stretch")
 
     csv = filtered_df.to_csv(index=False).encode("utf-8")
 
@@ -878,8 +897,7 @@ with prediction_tab:
         title="Estimated Feature Importance for Risk Rating Prediction"
     )
 
-    st.plotly_chart(importance_chart, use_container_width=True)
-
+    st.plotly_chart(importance_chart, width="stretch")
     model = load_model()
 
     col_pred1, col_pred2 = st.columns(2)
@@ -944,4 +962,9 @@ with prediction_tab:
     </div>
     """,
     unsafe_allow_html=True
+)
+st.markdown("---")
+
+st.caption(
+    "Enterprise Risk Intelligence Platform • Built by Arun Verma • AI + Risk Analytics + Operational Intelligence"
 )
