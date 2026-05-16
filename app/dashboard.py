@@ -224,6 +224,7 @@ countries_affected = filtered_df["country"].nunique()
 critical_active = len(filtered_df[filtered_df["risk_rating"] == "Critical"])
 high_active = len(filtered_df[filtered_df["risk_rating"] == "High"])
 
+# Alert Banner
 if critical_active > 0:
     st.markdown(
         f"""
@@ -275,56 +276,57 @@ else:
         """,
         unsafe_allow_html=True
     )
+
+# Executive KPI Snapshot
 st.markdown("### Executive Risk Snapshot")
 
-col1, col2, col3, col4 = st.columns(4)
+# Button row
+btn1, btn2, btn3, btn4 = st.columns(4)
 
-def colored_metric(label, value, color):
+with btn1:
+    if st.button("📊 Show All Events", use_container_width=True, key="show_all_events_btn"):
+        st.session_state.kpi_filter = None
+
+with btn2:
+    if st.button("🚨 Show High/Critical", use_container_width=True, key="show_high_critical_btn"):
+        st.session_state.kpi_filter = "HIGH"
+
+with btn3:
+    st.button("📈 Avg Risk Score", use_container_width=True, disabled=True, key="avg_risk_btn")
+
+with btn4:
+    st.button("🌍 Countries", use_container_width=True, disabled=True, key="countries_btn")
+
+# KPI row
+kpi1, kpi2, kpi3, kpi4 = st.columns(4)
+
+def colored_kpi(title, value, color):
     st.markdown(
         f"""
-        <div style="
-            background: {color};
-            padding:18px;
-            border-radius:14px;
-            color:white;
-            text-align:center;
-            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
-        ">
-            <h4 style="
-    margin:0;
-    white-space: nowrap;
-    font-size:16px;
-    overflow:hidden;
-    text-overflow:ellipsis;
-">{label}</h4>
-            <h2 style="margin:5px 0 0 0; font-size:28px;">{value}</h2>
+        <div style="background:{color}; padding:24px; border-radius:16px; color:white; text-align:center; height:150px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+            <div style="font-size:18px; font-weight:600;">{title}</div>
+            <div style="font-size:42px; font-weight:700; margin-top:22px;">{value}</div>
         </div>
         """,
         unsafe_allow_html=True
     )
+    
+with kpi1:
+    colored_kpi("📊 Total Events", total_events, "#1e293b")
 
-with col1:
-    if st.button("📊 Total Events", key="total_events_btn"):
-        st.session_state.kpi_filter = None
-    colored_metric("📊 Total Events", total_events, "#1e293b")
+with kpi2:
+    colored_kpi("🚨 High/Critical", high_risk_events, "#b91c1c")
 
-with col2:
-    if st.button("🚨 High/Critical", key="high_critical_btn"):
-        st.session_state.kpi_filter = "HIGH"
-    colored_metric("🚨 High/Critical", high_risk_events, "#b91c1c")
+with kpi3:
+    colored_kpi("📈 Avg Risk Score", avg_risk_score, "#2563eb")
 
-with col3:
-    colored_metric("📈 Avg Risk Score", avg_risk_score, "#2563eb")
-
-with col4:
-    colored_metric("🌍 Countries", countries_affected, "#047857")
+with kpi4:
+    colored_kpi("🌍 Countries", countries_affected, "#047857")
+        
+# Executive Insight
 if total_events > 0:
-    executive_insight = f"""
-    Based on the current filters, the highest operational exposure is concentrated in 
-    **{filtered_df["city"].value_counts().idxmax()}**, with **{filtered_df["category"].value_counts().idxmax()}**
-    as the most frequent risk category. There are currently **{high_risk_events} High/Critical**
-    incidents requiring attention across **{countries_affected} countries**.
-    """
+    top_city = filtered_df["city"].value_counts().idxmax()
+    top_category = filtered_df["category"].value_counts().idxmax()
 
     st.markdown(
         f"""
@@ -336,22 +338,31 @@ if total_events > 0:
             margin-top:18px;
             margin-bottom:18px;
         ">
-            <h4 style="margin-top:0;">Executive Insight</h4>
-            <p style="font-size:16px; color:#334155;">{executive_insight}</p>
+            <h4 style="margin-top:0; color:#1f2937;">Executive Insight</h4>
+            <p style="font-size:16px; color:#334155;">
+                Based on the current filters, the highest operational exposure is concentrated in
+                <b>{top_city}</b>, with <b>{top_category}</b> as the most frequent risk category.
+                There are currently <b>{high_risk_events}</b> High/Critical incidents requiring attention
+                across <b>{countries_affected}</b> countries.
+            </p>
         </div>
         """,
         unsafe_allow_html=True
     )
-    overview_tab, analytics_tab, map_tab, alerts_tab, triage_tab, prediction_tab, data_tab = st.tabs(    [
-    "Executive Overview",
-    "Analytics",
-    "Risk Map",
-    "Alerts",
-    "Triage Center",
-    "ML Prediction",
-    "Data & Reports"
-]
+
+# Tabs
+overview_tab, analytics_tab, map_tab, alerts_tab, triage_tab, prediction_tab, data_tab = st.tabs(
+    [
+        "Executive Overview",
+        "Analytics",
+        "Risk Map",
+        "Alerts",
+        "Triage Center",
+        "ML Prediction",
+        "Data & Reports"
+    ]
 )
+
 with overview_tab:
     st.subheader("Executive Risk Summary")
 
