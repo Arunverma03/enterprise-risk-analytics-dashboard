@@ -53,13 +53,13 @@ AI-driven operational risk analytics and decision intelligence dashboard for ent
 
 ### Triage Center
 
-![Triage](app/assets/Triage Center.png)
+![Triage](app/assets/TriageCenter.png)
 
 ---
 
 ### ML Prediction
 
-![Prediction](app/assets/ml prediction.png)
+![Prediction](app/assets/mlprediction.png)
 
 ---
 
