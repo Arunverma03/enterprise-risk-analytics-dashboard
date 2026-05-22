@@ -780,16 +780,16 @@ else:
             "country",
             "city",
             "category",
-                    "event_type",
-        "risk_rating",
-        "alert_priority_score",
-        "priority_label",
-        "owner_team",
-        "sla_target",
-        "sla_breach_risk",
-        "status",
-        "recommended_action",
-        "resolution_recommendation"
+            "event_type",
+            "risk_rating",
+            "alert_priority_score",
+            "priority_label",
+            "owner_team",
+            "sla_target",
+            "sla_breach_risk",
+            "status",
+            "recommended_action",
+            "resolution_recommendation"
     ]
 ].sort_values(by="alert_priority_score", ascending=False)
 
