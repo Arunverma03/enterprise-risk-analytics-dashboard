@@ -3,6 +3,12 @@ import pandas as pd
 import plotly.express as px
 from sqlalchemy import create_engine
 import joblib
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from src.risk_scoring import add_risk_scores
 
 if "kpi_filter" not in st.session_state:
     st.session_state.kpi_filter = None
@@ -108,6 +114,11 @@ if uploaded_file is not None:
     df["longitude"] = pd.to_numeric(df["longitude"], errors="coerce")
 
     if "risk_score" not in df.columns:
+        import sys
+        import os
+
+        sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
         from src.risk_scoring import add_risk_scores
         df = add_risk_scores(df)
 
@@ -644,12 +655,15 @@ with triage_tab:
     triage_kpi3.metric("High Priority", len(triage_df[triage_df["risk_rating"] == "High"]))
     triage_kpi4.metric("Avg Priority Score", round(triage_df["alert_priority_score"].mean(), 2))
     critical_count = len(triage_df[triage_df["risk_rating"] == "Critical"])
-high_count = len(triage_df[triage_df["risk_rating"] == "High"])
+    high_count = len(triage_df[triage_df["risk_rating"] == "High"])
 
 queue_health_score = max(
-    0,
-    100 - (critical_count * 12) - (high_count * 5)
+    10,
+    100 - (critical_count * 0.35) - (high_count * 0.15)
 )
+
+queue_health_score = round(queue_health_score, 1)
+
 
 st.subheader("Live Queue Health Score")
 
@@ -798,21 +812,29 @@ Recommended Focus:
 Prioritize P1 and P2 incidents, monitor SLA breach risk, and assign response owners based on severity.
 """
 
-st.download_button(
-    label="Download Triage Queue",
-    data=triage_table.to_csv(index=False).encode("utf-8"),
-    file_name="triage_queue.csv",
-    mime="text/csv",
-    key="download_triage_queue"
-)
+st.subheader("Triage Export Center")
 
-st.download_button(
-    label="Download Triage Summary",
-    data=triage_summary_text,
-    file_name="triage_summary.txt",
-    mime="text/plain",
-    key="download_triage_summary"
-)
+col_export1, col_export2 = st.columns(2)
+
+with col_export1:
+    st.download_button(
+        label="📥 Download Triage Queue",
+        data=triage_table.to_csv(index=False).encode("utf-8"),
+        file_name="triage_queue.csv",
+        mime="text/csv",
+        key="download_triage_queue_final",
+        use_container_width=True
+    )
+
+with col_export2:
+    st.download_button(
+        label="📄 Download Triage Summary",
+        data=triage_summary_text,
+        file_name="triage_summary.txt",
+        mime="text/plain",
+        key="download_triage_summary_final",
+        use_container_width=True
+    )
 with data_tab:
     st.subheader("Data Quality Check")
 
