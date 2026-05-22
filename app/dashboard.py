@@ -85,7 +85,26 @@ uploaded_file = st.sidebar.file_uploader(
     "Upload Client Risk Dataset CSV",
     type=["csv"]
 )
+if "uploaded_df" not in st.session_state:
+    st.session_state.uploaded_df = None
+    
+with st.sidebar.expander("📄 Sample CSV Format", expanded=False):
 
+    st.write("Your uploaded dataset should contain:")
+
+    st.code("""
+date
+event_summary
+recommended_action
+category
+event_type
+impact_level
+country
+city
+latitude
+longitude
+""")
+    
 required_columns = [
     "date",
     "event_summary",
@@ -114,15 +133,15 @@ if uploaded_file is not None:
     df["longitude"] = pd.to_numeric(df["longitude"], errors="coerce")
 
     if "risk_score" not in df.columns:
-        import sys
-        import os
-
-        sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-        from src.risk_scoring import add_risk_scores
         df = add_risk_scores(df)
 
+    st.session_state.uploaded_df = df
     st.sidebar.success("Client dataset uploaded successfully.")
+
+elif st.session_state.uploaded_df is not None:
+    df = st.session_state.uploaded_df
+    st.sidebar.info("Using previously uploaded dataset.")
+
 else:
     df = load_data()
 
@@ -215,16 +234,60 @@ if st.session_state.kpi_filter == "HIGH":
     st.info("Active KPI Filter: High/Critical Events")
 
 if view_mode == "Executive":
-    st.success("Executive mode enabled: high-level strategic insights.")
-elif view_mode == "Operational":
-    st.warning("Operational mode enabled: prioritize active alerts and field actions.")
-else:
-    st.info("Standard mode enabled: balanced analytics view.")
-if view_mode == "Executive":
+    st.markdown(
+        """
+        <div style="
+            background:#eff6ff;
+            border-left:6px solid #2563eb;
+            color:#1e3a8a;
+            padding:14px;
+            border-radius:12px;
+            margin-bottom:12px;
+            font-weight:600;
+        ">
+            Executive Command View Enabled — focus on strategic risk exposure, KPIs, trends, and executive summaries.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     st.caption("Recommended tabs: Executive Overview, Analytics, Data & Reports")
+
 elif view_mode == "Operational":
-    st.caption("Recommended tabs: Alerts, Risk Map, Data & Reports")
+    st.markdown(
+        """
+        <div style="
+            background:#fef2f2;
+            border-left:6px solid #dc2626;
+            color:#7f1d1d;
+            padding:14px;
+            border-radius:12px;
+            margin-bottom:12px;
+            font-weight:600;
+        ">
+            Operational Response Mode Enabled — focus on alerts, triage queue, SLA monitoring, and incident response.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    st.caption("Recommended tabs: Alerts, Risk Map, Triage Center")
+
 else:
+    st.markdown(
+        """
+        <div style="
+            background:#f8fafc;
+            border-left:6px solid #64748b;
+            color:#334155;
+            padding:14px;
+            border-radius:12px;
+            margin-bottom:12px;
+            font-weight:600;
+        ">
+            Standard Analytics Mode Enabled — balanced view for complete risk analysis.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
     st.caption("Recommended tabs: All tabs available for complete analysis")
 # KPIs
 total_events = len(filtered_df)
@@ -464,14 +527,20 @@ with analytics_tab:
 
     st.subheader("Risk Trend Over Time")
 
+    trend_df = filtered_df.copy()
+    trend_df["date"] = pd.to_datetime(trend_df["date"], errors="coerce")
+
+# Monthly aggregation for cleaner trend
     trend_df = (
-        filtered_df
-        .groupby("date", as_index=False)
+        trend_df
+        .set_index("date")
+        .resample("ME")
         .agg(
             total_events=("event_summary", "count"),
             average_risk_score=("risk_score", "mean")
-        )
     )
+    .reset_index()
+)
 
     trend_chart = px.line(
         trend_df,
@@ -479,7 +548,22 @@ with analytics_tab:
         y="average_risk_score",
         markers=True,
         title="Average Risk Score Over Time"
+)
+
+    trend_chart.update_layout(
+        xaxis=dict(
+            rangeselector=dict(
+                buttons=[
+                    dict(count=1, label="1Y", step="year", stepmode="backward"),
+                    dict(count=3, label="3Y", step="year", stepmode="backward"),
+                    dict(count=5, label="5Y", step="year", stepmode="backward"),
+                    dict(step="all", label="All")
+            ]
+        ),
+        rangeslider=dict(visible=True),
+        type="date"
     )
+)
 
     st.plotly_chart(trend_chart, width="stretch")
     st.subheader("Risk Heatmap: Category vs Impact Level")
@@ -635,12 +719,14 @@ with triage_tab:
         "Medium": "Moderate",
         "Low": "Low"
     })
+
     triage_df["priority_label"] = triage_df["alert_priority_score"].apply(
         lambda score: "P1 - Immediate" if score >= 120
         else "P2 - High" if score >= 80
         else "P3 - Moderate" if score >= 40
         else "P4 - Low"
     )
+
     triage_df["status"] = triage_df["risk_rating"].map({
         "Critical": "Escalated",
         "High": "Open",
@@ -654,25 +740,25 @@ with triage_tab:
     triage_kpi2.metric("Escalated", len(triage_df[triage_df["risk_rating"] == "Critical"]))
     triage_kpi3.metric("High Priority", len(triage_df[triage_df["risk_rating"] == "High"]))
     triage_kpi4.metric("Avg Priority Score", round(triage_df["alert_priority_score"].mean(), 2))
+
     critical_count = len(triage_df[triage_df["risk_rating"] == "Critical"])
     high_count = len(triage_df[triage_df["risk_rating"] == "High"])
 
-queue_health_score = max(
-    10,
-    100 - (critical_count * 0.35) - (high_count * 0.15)
-)
+    queue_health_score = max(
+        10,
+        100 - (critical_count * 0.35) - (high_count * 0.15)
+    )
+    queue_health_score = round(queue_health_score, 1)
 
-queue_health_score = round(queue_health_score, 1)
+    st.subheader("Live Queue Health Score")
 
+    if queue_health_score >= 80:
+        st.success(f"Queue Health Score: {queue_health_score}/100")
+    elif queue_health_score >= 50:
+        st.warning(f"Queue Health Score: {queue_health_score}/100")
+    else:
+        st.error(f"Queue Health Score: {queue_health_score}/100")
 
-st.subheader("Live Queue Health Score")
-
-if queue_health_score >= 80:
-    st.success(f"Queue Health Score: {queue_health_score}/100")
-elif queue_health_score >= 50:
-    st.warning(f"Queue Health Score: {queue_health_score}/100")
-else:
-    st.error(f"Queue Health Score: {queue_health_score}/100")
     st.subheader("SLA Countdown Monitor")
 
     sla_summary = pd.DataFrame({
@@ -687,9 +773,6 @@ else:
     })
 
     st.dataframe(sla_summary, width="stretch")
-
-    st.subheader("Triage Status Summary")
-
 
     st.subheader("Triage Filters")
 
@@ -709,13 +792,18 @@ else:
         (triage_df["priority_label"].isin(selected_priority)) &
         (triage_df["status"].isin(selected_status))
     ]
+
     if triage_df.empty:
         st.warning("No incidents match the selected triage filters.")
         st.stop()
+
+    st.subheader("Triage Status Summary")
+
     status_summary = (
-    triage_df.groupby("status", as_index=False)
-    .agg(total_incidents=("event_summary", "count"))
+        triage_df.groupby("status", as_index=False)
+        .agg(total_incidents=("event_summary", "count"))
     )
+
     status_chart = px.bar(
         status_summary,
         x="status",
@@ -724,7 +812,7 @@ else:
     )
 
     st.plotly_chart(status_chart, width="stretch")
-    
+
     st.subheader("Recommended Action Playbook")
 
     playbook = pd.DataFrame({
@@ -739,18 +827,19 @@ else:
     })
 
     st.dataframe(playbook, width="stretch")
+
     triage_df["date"] = pd.to_datetime(triage_df["date"], errors="coerce")
     latest_date = triage_df["date"].max()
 
-    triage_df["incident_age_days"] = (
-        latest_date - triage_df["date"]
-    ).dt.days
+    triage_df["incident_age_days"] = (latest_date - triage_df["date"]).dt.days
+
     triage_df["aging_bucket"] = triage_df["incident_age_days"].apply(
         lambda days: "Fresh: 0-1 days" if days <= 1
         else "Recent: 2-7 days" if days <= 7
         else "Aging: 8-30 days" if days <= 30
         else "Old: 30+ days"
     )
+
     st.subheader("Incident Aging Summary")
 
     aging_summary = (
@@ -766,36 +855,46 @@ else:
     )
 
     st.plotly_chart(aging_chart, width="stretch")
+
     triage_df["resolution_recommendation"] = triage_df["priority_label"].map({
         "P1 - Immediate": "Escalate immediately and activate crisis response",
         "P2 - High": "Assign to operations team and monitor continuously",
         "P3 - Moderate": "Review during next operational cycle",
         "P4 - Low": "Monitor passively and archive if no update"
     })
-    triage_table = triage_df[
-        [
-            "date",
-            "incident_age_days",
-            "aging_bucket",
-            "country",
-            "city",
-            "category",
-            "event_type",
-            "risk_rating",
-            "alert_priority_score",
-            "priority_label",
-            "owner_team",
-            "sla_target",
-            "sla_breach_risk",
-            "status",
-            "recommended_action",
-            "resolution_recommendation"
+
+    triage_columns = [
+        "date",
+        "incident_age_days",
+        "aging_bucket",
+        "country",
+        "city",
+        "category",
+        "event_type",
+        "risk_rating",
+        "alert_priority_score",
+        "priority_label",
+        "owner_team",
+        "sla_target",
+        "sla_breach_risk",
+        "status",
+        "recommended_action",
+        "resolution_recommendation"
     ]
-].sort_values(by="alert_priority_score", ascending=False)
 
-st.dataframe(triage_table, width="stretch")
+    available_triage_columns = [
+        col for col in triage_columns if col in triage_df.columns
+    ]
 
-triage_summary_text = f"""
+    triage_table = triage_df[available_triage_columns].sort_values(
+        by="alert_priority_score",
+        ascending=False
+    )
+
+    st.subheader("Operational Triage Queue")
+    st.dataframe(triage_table, width="stretch")
+
+    triage_summary_text = f"""
 Enterprise Risk Triage Summary
 
 Total Incidents in Queue: {len(triage_df)}
@@ -812,29 +911,30 @@ Recommended Focus:
 Prioritize P1 and P2 incidents, monitor SLA breach risk, and assign response owners based on severity.
 """
 
-st.subheader("Triage Export Center")
+    st.subheader("Triage Export Center")
 
-col_export1, col_export2 = st.columns(2)
+    export_col1, export_col2 = st.columns(2)
 
-with col_export1:
-    st.download_button(
-        label="📥 Download Triage Queue",
-        data=triage_table.to_csv(index=False).encode("utf-8"),
-        file_name="triage_queue.csv",
-        mime="text/csv",
-        key="download_triage_queue_final",
-        use_container_width=True
-    )
+    with export_col1:
+        st.download_button(
+            label="📥 Download Triage Queue",
+            data=triage_table.to_csv(index=False).encode("utf-8"),
+            file_name="triage_queue.csv",
+            mime="text/csv",
+            key="download_triage_queue_final",
+            width="stretch"
+        )
 
-with col_export2:
-    st.download_button(
-        label="📄 Download Triage Summary",
-        data=triage_summary_text,
-        file_name="triage_summary.txt",
-        mime="text/plain",
-        key="download_triage_summary_final",
-        use_container_width=True
-    )
+    with export_col2:
+        st.download_button(
+            label="📄 Download Triage Summary",
+            data=triage_summary_text,
+            file_name="triage_summary.txt",
+            mime="text/plain",
+            key="download_triage_summary_final",
+            width="stretch"
+        )
+        
 with data_tab:
     st.subheader("Data Quality Check")
 
